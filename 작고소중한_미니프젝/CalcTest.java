@@ -10,19 +10,21 @@ public class CalcTest {
 		display.message();
 		display.inputM1();
 		display.input();
+		
+		
 		////////////////////////////////////////////// 여기서부터 출력이 안 됨. 
-			if (display.result == display.m1[0]) {
+			//if (display.result == display.m1[0]) {
 					display.plus();
-			}
-			if (display.result == display.m1[1]) {
+			//}
+			//if (display.result == display.m1[1]) {
 					display.minus();
-			}
-			if (display.result == display.m1[2]) {
+			//}
+			//if (display.result == display.m1[2]) {
 					display.multi();
-			}
-			if (display.result == display.m1[3]) {
+			//}
+			//if (display.result == display.m1[3]) {
 					display.divide();
-			}
+			//}
 	}
 	
 }
@@ -31,6 +33,7 @@ class Calculator  {
 	
 		//field
 	public String result;
+	
 	String[] m1 = new String[] {"더하기", "빼기", "곱하기", "나누기"};			
 		
 		//Method
