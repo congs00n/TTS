@@ -6,7 +6,7 @@ public class Game {
 		void gameTest() {
 			Scanner scanner = new Scanner(System.in);
 			int num = (int) (Math.random() * 10); // num = 1~9
-			for(int i = 1; i < 10; i ++) {
+			for(int i = 1; i < 6; i ++) {
 				int input = scanner.nextInt();
 				
 				if (num == input) {
@@ -14,7 +14,7 @@ public class Game {
 					return;
 				}
 				else {
-					System.out.println("다시 입력하세요. (남은 횟수 : " + (9 - i) + "/9");
+					System.out.println("다시 입력하세요. (남은 횟수 : " + (5 - i) + "/5");
 				}
 			}
 		}
