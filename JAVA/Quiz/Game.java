@@ -14,7 +14,7 @@ public class Game {
 					return;
 				}
 				else {
-					System.out.println("다시 입력하세요. (남은 횟수 : " + (5 - i) + "/5");
+					System.out.println("다시 입력하세요. (남은 횟수 : " + (5 - i) + "/5)");
 				}
 			}
 		}
