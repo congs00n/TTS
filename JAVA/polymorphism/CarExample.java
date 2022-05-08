@@ -11,6 +11,7 @@ public class CarExample {
 		
 		
 			switch (problemLocation) {
+							// 교체할 때가 되면 자동 타입 변환을 통해 타이어를 교체하는 것이 포인트! 
 				case 1:
 					System.out.println("앞왼쪽 HankookTire로 교체");
 					car.frontLeftTire = new HankookTire("앞왼쪽", 15);
